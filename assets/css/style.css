@@ -28,15 +28,15 @@ p {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
     background: #dda0dd;
     color: #191970;
   }
 
 /* Navigation */
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 10px;
+    margin-right: 10px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -45,7 +45,7 @@ header nav {
 /* Navigation Links */
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 header nav ul li a:hover {
@@ -61,3 +61,15 @@ header nav ul li a:hover {
     margin-bottom: 40px;
     padding: 40px;
 }
+
+/* Content Section*/
+    /* Content Titles*/
+
+    /* About Me */
+        /* About Me img*/
+
+    /* My Work */
+        /* First Application Link */
+        /* Other Application Links */
+
+    /* Contact Me */
