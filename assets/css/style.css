@@ -21,6 +21,7 @@ a {
 
 p {
     font-size: 20px;
+    padding: 10px;
     color: #191970;
 }
 
@@ -58,18 +59,50 @@ header nav ul li a:hover {
 .subtitle {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
-    padding: 40px;
+    padding: 10px;
 }
+/* Add subtitle img? */
 
 /* Content Section*/
-    /* Content Titles*/
+    .content {
+        min-height: 100%;
+        justify-content: right;
+        padding: 10px;
+        min-width: 90%; /* Review this */
+        max-width: 90%; /* Review this */
+    }
+    
+    .content-title h2 {
+        font-size: 28px;
+        padding: 10px;
+        color: midnightblue;
+    }
 
     /* About Me */
-        /* About Me img*/
+    .about-me {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        padding-left: 20px;
+    }
+    /* About Me img*/
 
     /* My Work */
+    .my-work {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        padding-left: 20px;
+    }
+        /* First Application Title */
         /* First Application Link */
+        /* Other Application Titles */
         /* Other Application Links */
 
     /* Contact Me */
+    .contact-me {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        padding-left: 20px;
+    }
