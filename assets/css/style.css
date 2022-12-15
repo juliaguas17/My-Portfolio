@@ -20,7 +20,8 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
+    color: #191970;
 }
 
 /* Page Title */
@@ -47,4 +48,16 @@ header nav ul li {
     margin-left: 25px;
 }
 
+header nav ul li a:hover {
+    color: #191970;
+    border-radius: 15px;
+    text-shadow: none;
+} 
+
 /* Subtitle */
+.subtitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 40px;
+}
