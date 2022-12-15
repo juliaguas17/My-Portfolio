@@ -76,6 +76,7 @@ header nav ul li a:hover {
         font-size: 28px;
         padding: 10px;
         color: midnightblue;
+
     }
 
     /* About Me */
@@ -106,3 +107,5 @@ header nav ul li a:hover {
         align-items: stretch;
         padding-left: 20px;
     }
+
+/* Add grid */
