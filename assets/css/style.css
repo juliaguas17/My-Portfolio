@@ -78,12 +78,15 @@ header nav ul li a:hover {
     flex: 50%;
     padding: 5px;
     background-color: bisque;
+
   }
 /*Content Title*/
 .content-title h2 {
-    font-size: 28px;
+    font-size: 24px;
     padding: 40px;
     color: midnightblue;
+    text-align: right;
+    column-width: 25%;
 }
 
     /* About Me */
