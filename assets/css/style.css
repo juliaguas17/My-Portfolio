@@ -64,47 +64,94 @@ p {
     display: flex;
     justify-content: center;
     padding: 10px;
-    /* Add subtitle img? */
+    /* Add hero img */
 }
 /* End Hero */
 
 /*Content Flexbox Elements*/
+.container {
+    border-right: solid;
+    border-color:#191970;
+}
 
 .row {
     display: flex;
-    background-color: aqua;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-left:60px;
+    padding: 30px;
+    margin-bottom: 20px;;
   }
   
 .column {
     flex: 60%;
     background-color: bisque;
-
   }
+
 /*Content Title*/
 .content-title h2 {
     font-size: 30px;
     padding: 30px;
     color: midnightblue;
+    column-width: 30%;
     text-align: right;
-    column-width: 35%;
 }
 
-    /* About Me */
-        /* About Me img*/
+/* My Work */
+.my-work {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+}
 
-    /* My Work */
-        /* First Application Title */
-        /* First Application Link */
-        /* Other Application Titles */
-        /* Other Application Links */
+.projects-grid-wrapper {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
 
-    /* Contact Me */
+.projects-grid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
 
-/* Add grid */
-/* Add media queries */
+.project_1 {
+    border: solid;
+    color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.project_2 {
+    background-image: url('/images/mountains.jpeg');
+}
+
+.project_3 {
+    background-image: url('/images/desert.jpeg');
+}
+
+.project_4 {
+    background-image: url('/images/trees.jpeg');
+}
+
+.project:hover {
+    opacity: 1.0;
+}
+
+.project-label {
+    /*background-color: var(--secondary);*/
+    background-color: plum;
+    padding: 10px;
+}
+
+
+/* Media queries */
 @media screen and (max-width: 500px) {
     .column {
       width: 90%;
