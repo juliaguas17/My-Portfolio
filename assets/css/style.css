@@ -116,7 +116,7 @@ p {
         gap: 10px;
     }
 
-    .project {
+    .project h3{
         border: solid;
         color: aqua;
         display: flex;
@@ -128,7 +128,7 @@ p {
     }
 
     /* Project Titles */
-    .project-label h3 {
+    .project-label{
         background-color: plum;
         padding: 10px;
         display: flex;
