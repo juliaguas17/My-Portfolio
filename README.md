@@ -1,4 +1,4 @@
-# 02 Advanced CSS: Portfolio
+# Week 2: Advanced CSS - Portfolio
 
 ## Your Task
 
