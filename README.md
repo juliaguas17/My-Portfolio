@@ -1,3 +1,7 @@
+## Deployed Link
+
+https://juliaguas17.github.io/My-Portfolio/
+
 # Week 2: Advanced CSS - Portfolio
 
 ## Your Task
